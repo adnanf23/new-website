@@ -1,0 +1,29 @@
+nav {
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  padding: 25px 50px;
+  color: white;
+}
+nav .title {
+  width: 50%;
+}
+nav .title h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+nav .navigation {
+  width: 50%;
+}
+nav .navigation ul {
+  display: flex;
+  justify-content: end;
+}
+nav .navigation ul li {
+  list-style: none;
+  padding: 0px 10px;
+  font-size: 22px;
+}
+nav .navigation ul a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,259 @@
+* {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+hr {
+  border: 3px solid #7DE5ED;
+  border-radius: 20px;
+}
+
+body {
+  background-color: #404258;
+  color: white;
+}
+
+header {
+  display: flex;
+  gap: 100px;
+  padding: 35px 10px;
+}
+header .h-left {
+  margin-left: -10px;
+  margin-top: 300px;
+  display: inline-block;
+}
+header .h-left .myft {
+  position: absolute;
+  margin-top: -265px;
+  left: 0;
+  margin-left: 100px;
+}
+header .h-left .wafe1, header .h-left .wafe2, header .h-left .wafe3 {
+  width: 550px;
+}
+header .h-left .wafe1 {
+  margin-top: 40px;
+}
+header .h-left .wafe2 {
+  position: absolute;
+  margin-top: -132px;
+  left: 0;
+}
+header .h-left .wafe3 {
+  position: absolute;
+  margin-top: -170px;
+}
+header .h-right {
+  margin-top: 100px;
+  font-family: "montserrat", sans-serif;
+}
+header .h-right h1 {
+  font-size: 45px;
+  font-family: "ubuntu", sans-serif;
+  font-weight: bold;
+}
+header .h-right h1 span {
+  color: #7DE5ED;
+}
+header .h-right p {
+  font-size: 33px;
+  font-weight: 900;
+}
+
+section {
+  background-color: #50577A;
+  padding: 50px 20px;
+  margin-top: -38px;
+}
+section article {
+  margin: auto;
+  width: 90%;
+  padding: 100px 25px 0px 0px;
+  height: 100vh;
+}
+section article h1 {
+  font-family: "ubuntu", sans-serif;
+  font-size: 45px;
+}
+section article .about {
+  font-family: "montserrat", sans-serif;
+  display: flex;
+  padding: 70px 0px;
+}
+section article .about .a-left {
+  margin: 20px 5px;
+}
+section article .about .a-left span {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 900;
+}
+section article .about .a-left p {
+  font-weight: 900;
+  font-size: 22px;
+}
+section article .about .a-right .bg {
+  margin-left: 195px;
+  margin-bottom: -35px;
+}
+section article .about .a-right .vektor {
+  margin-top: -550px;
+  margin-left: 100px;
+}
+section article .skill {
+  padding: 30px 0px 0px 0px;
+}
+section article .skill p {
+  font-family: "roboto", sans-serif;
+  font-size: 22px;
+  padding-bottom: 35px;
+}
+section article .skill .container {
+  display: flex;
+  gap: 300px;
+  width: 100%;
+}
+section article .skill .container .progres {
+  display: flex;
+  font-family: "ubuntu", sans-serif;
+  gap: 20px;
+  padding: 10px 0px;
+}
+section article .skill .container .progres h5, section article .skill .container .progres span {
+  font-size: 18px;
+}
+section article .skill .container .progres .proces {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  height: 20px;
+  background-color: #cacaca;
+}
+section article .skill .container .progres .proces span {
+  position: absolute;
+  left: 1;
+  width: 5%;
+  height: 100%;
+  border-radius: 20px;
+  background: #017cff;
+  transition: 3s;
+}
+section article .skill .container .s-left .p2 {
+  gap: 30px;
+}
+section article .skill .container .s-left .p2 .text {
+  padding-right: 5px;
+}
+section article .skill .container .s-left .p3 {
+  gap: 30px;
+}
+section article .skill .container .s-left .p3 .text {
+  padding-right: 17px;
+}
+section article .skill .container .s-left .p4 {
+  gap: 9px;
+}
+section article .skill .container .s-left .p4 .text {
+  font-size: 18px;
+}
+section article .skill .container .s-left .p4 .present {
+  padding-left: 20px;
+}
+section article .skill .container .s-left .p5 {
+  gap: 4px;
+  display: none;
+}
+section article .skill .container .s-left .p5 .text h5 {
+  font-size: 15px;
+}
+section article .skill .container .s-left .p5 .present {
+  padding-left: 20px;
+}
+section article .skill .container .s-right .p2 .text h5 {
+  font-size: 17px;
+}
+section article .skill .container .s-right .p3 .text {
+  padding-right: 35px;
+}
+section article .project .amount-proj {
+  position: absolute;
+  text-align: center;
+  font-family: "ubuntu", sans-serif;
+  margin-left: -50px;
+  left: 50%;
+}
+section article .project .amount-proj h3 {
+  font-size: 30px;
+}
+section article .project .amount-proj h2 {
+  font-size: 35px;
+  color: #7DE5ED;
+  margin-top: -8px;
+}
+section article .project .amount-proj hr {
+  margin: auto;
+  margin-top: 10px;
+}
+section article .project .wrap::-webkit-scrollbar {
+  overflow: hidden;
+}
+section article .project .wrap {
+  position: absolute;
+  margin-top: 120px;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  left: 0;
+  padding: 1px 10px;
+}
+section article .project .wrap .container {
+  display: flex;
+  gap: 50px;
+}
+section article .project .wrap .container .card {
+  max-width: 290px;
+  min-width: 280px;
+  background-color: white;
+  border-radius: 15px;
+  height: 25rem;
+  color: black;
+  padding: 5px;
+  font-family: "roboto", sans-serif;
+}
+section article .project .wrap .container .card .image {
+  width: 100%;
+  border-radius: 15px;
+}
+section article .project .wrap .container .card .image img {
+  width: 100%;
+}
+section article .project .wrap .container .card .text {
+  padding: 5px 10px;
+}
+section article .project .wrap .container .card .text h1 {
+  font-size: 22px;
+  padding: 3px 0px 0px 0px;
+}
+section article .project .wrap .container .card .text h5 {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+section article .project .wrap .container .card .text p {
+  font-size: 14px;
+  font-family: "ubuntu", sans-serif;
+}
+section article .project .wrap .container .card .text p span {
+  font-weight: 1000;
+}
+section article .project .wrap .container .card .text button {
+  margin-top: 12px;
+  padding: 7px 30px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(90deg, #017cff, #004896);
+}
+section #project {
+  padding: 10px 10px 10px 10px;
+}/*# sourceMappingURL=main.css.map */

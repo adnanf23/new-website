@@ -1,0 +1,128 @@
+article{
+
+  .skill{
+    padding: 30px 0px;
+
+    p{
+      font-family: $roboto;
+      font-size: 22px;
+      padding-bottom: 35px;
+    }
+
+    .container{
+      display: none;
+      .progres{
+        display: flex;
+        font-family: $ubuntu;
+        gap: 20px;
+        padding: 10px 0px;
+      
+        h5, span{
+          font-size: 18px;
+        }
+
+        .proces{
+          position: relative;
+          width: 100%;
+          border-radius: 20px;
+          height: 20px;
+          background-color: #cacaca;
+
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+  .container{
+
+    .progres{
+      display: flex;
+      font-family: $ubuntu;
+      gap: 20px;
+      padding: 10px 0px;
+    
+      h5, span{
+        font-size: 18px;
+      }
+    
+      .proces{
+        position: relative;
+        width: 100%;
+        border-radius: 20px;
+        height: 20px;
+        background-color: #cacaca;
+    
+        span{
+          position: absolute;
+          left: 1;
+          width: 5%;
+          height: 100%;
+          border-radius: 20px;
+          background: #017cff;
+          transition: 3s;
+        }
+      }
+    }
+  
+    .s-left{
+  
+      .p2{
+      gap: 30px;
+      .text{
+        padding-right: 5px;
+      }
+    }
+    
+      .p3{
+        gap: 30px;
+        .text{
+          padding-right: 17px;
+        }
+      }
+
+      .p4{
+        gap: 9px;
+        .text{
+          font-size: 18px;
+        }
+        .present{
+          padding-left: 20px;
+        }
+      }
+      
+      .p5{
+        gap: 4px;
+        display: none;
+        .text h5{
+          font-size: 15px;
+        }
+        .present{
+          padding-left: 20px;
+        }
+      }
+  
+    }
+
+    .s-right{
+      .p2{
+        .text h5{
+         font-size: 17px;
+        }
+      }
+      .p3{
+  
+        .text{
+          padding-right: 35px;
+        }
+      }
+    }
+
+    }

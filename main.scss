@@ -1,0 +1,332 @@
+$color1: #404258;
+$color2: #474E68;
+$color3: #50577A;
+$color4: #6B728E;
+
+$monserrat: 'montserrat', sans-serif;
+$ubuntu: 'ubuntu', sans-serif;
+$roboto: 'roboto', sans-serif;
+
+*{
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+hr{
+  border: 3px solid #7DE5ED;
+  border-radius: 20px;
+}
+
+body{
+  background-color: $color1;
+  color: white;
+}
+
+header{
+  display: flex;
+  gap: 100px;
+  padding: 35px 10px;
+
+  .h-left{
+    margin-left: -10px;
+    margin-top: 300px;
+    display: inline-block;
+
+    .myft{
+      position: absolute;
+      margin-top: -265px;
+      left: 0;
+      margin-left: 100px;
+    }
+    .wafe1, .wafe2, .wafe3{
+      width: 550px;
+    }
+    .wafe1{
+      margin-top: 40px;
+    }
+    .wafe2{
+      position: absolute;
+      margin-top: -132px;
+      left: 0;
+    }
+    .wafe3{
+      position: absolute;
+      margin-top: -170px;
+    }
+
+  }
+
+  .h-right{
+    margin-top: 100px;
+    font-family: $monserrat;
+
+    h1{
+      font-size: 45px;
+      font-family: $ubuntu;
+      font-weight: bold;
+
+      span{
+        color: #7DE5ED;
+      }
+    }
+
+    p{
+      font-size: 33px;
+      font-weight: 900;
+    }
+  }
+}
+
+section{
+  background-color: $color3;
+  padding: 50px 20px;
+  margin-top: -38px;
+
+  article{
+    margin: auto;
+    width: 90%;
+    padding: 100px 25px 0px 0px;
+    height: 100vh;
+
+    h1{
+      font-family: $ubuntu;
+      font-size: 45px;
+    }
+
+
+    .about{
+      font-family: $monserrat;
+      display: flex;
+      padding: 70px 0px;
+      .a-left{
+        margin: 20px 5px;
+        span{
+          font-family: $ubuntu;
+          font-weight: 900;
+        }
+        p{
+          font-weight: 900;
+          font-size: 22px;
+        }
+      }
+      .a-right{
+        .bg{
+          margin-left: 195px;
+          margin-bottom: -35px;
+        }
+        .vektor{
+          margin-top: -550px;
+          margin-left: 100px;
+        }
+      }
+    }
+
+    .skill{
+      padding: 30px 0px 0px 0px;
+  
+      p{
+        font-family: $roboto;
+        font-size: 22px;
+        padding-bottom: 35px;
+      }
+  
+      .container{
+        display: flex;
+        gap: 300px;
+        width: 100%;
+      
+      
+        .progres{
+          display: flex;
+          font-family: $ubuntu;
+          gap: 20px;
+          padding: 10px 0px;
+        
+          h5, span{
+            font-size: 18px;
+          }
+        
+          .proces{
+            position: relative;
+            width: 100%;
+            border-radius: 20px;
+            height: 20px;
+            background-color: #cacaca;
+        
+            span{
+              position: absolute;
+              left: 1;
+              width: 5%;
+              height: 100%;
+              border-radius: 20px;
+              background: #017cff;
+              transition: 3s;
+            }
+          }
+        }
+      
+        .s-left{
+      
+          .p2{
+          gap: 30px;
+          .text{
+            padding-right: 5px;
+          }
+        }
+        
+          .p3{
+            gap: 30px;
+            .text{
+              padding-right: 17px;
+            }
+          }
+  
+          .p4{
+            gap: 9px;
+            .text{
+              font-size: 18px;
+            }
+            .present{
+              padding-left: 20px;
+            }
+          }
+          
+          .p5{
+            gap: 4px;
+            display: none;
+            .text h5{
+              font-size: 15px;
+            }
+            .present{
+              padding-left: 20px;
+            }
+          }
+      
+        }
+    
+        .s-right{
+          .p2{
+            .text h5{
+             font-size: 17px;
+            }
+          }
+          .p3{
+      
+            .text{
+              padding-right: 35px;
+            }
+          }
+        }
+        
+      }
+    }
+
+
+    .project{
+
+      .amount-proj{
+        position: absolute;
+        text-align: center;
+        font-family: $ubuntu;
+        margin-left: -50px;
+        left: 50%;
+
+        h3{
+          font-size: 30px;
+        }
+        h2{
+          font-size: 35px;
+          color:#7DE5ED;
+          margin-top: -8px;
+        }
+        hr{
+          margin: auto;
+          margin-top: 10px;
+        }
+      }
+
+
+      .wrap::-webkit-scrollbar{
+        overflow: hidden;
+      }
+      .wrap{
+        position: absolute;
+        margin-top: 120px;
+        max-width: 100%;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        left: 0;
+        padding: 1px 10px;
+
+        .container{
+          display: flex;
+          gap: 50px;
+
+          .card{
+            max-width: 290px;
+            min-width: 280px;
+            background-color: white;
+            border-radius: 15px;
+            height: 25rem;
+            color: black;
+            padding: 5px;
+            font-family: $roboto;
+  
+            .image{
+              width: 100%;
+              border-radius: 15px;
+  
+  
+              img{
+                width: 100%;
+              }
+            }
+  
+            .text{
+              padding: 5px 10px;
+  
+              h1{
+                font-size: 22px;
+                padding: 3px 0px 0px 0px;
+              }
+  
+              h5{
+                font-size: 18px;
+                padding-bottom: 5px;
+              }
+              p{
+                font-size: 14px;
+                font-family: $ubuntu;
+  
+                span{
+                  font-weight: 1000;
+                }
+              }
+              button{
+                margin-top: 12px;
+                padding: 7px 30px;
+                color: white;
+                border-radius: 20px;
+                border: none;
+                background: linear-gradient(90deg, #017cff, #004896);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  #project{
+    padding: 10px 10px 10px 10px ;
+  }
+
+}
+
+
+
+
+
+
+
