@@ -37,28 +37,27 @@ header .h-left .wafe1 {
 }
 header .h-left .wafe2 {
   position: absolute;
-  margin-top: -132px;
+  margin-top: 87px;
   left: 0;
 }
 header .h-left .wafe3 {
   position: absolute;
-  margin-top: -170px;
+  margin-top: 49px;
+  left: 0;
 }
 header .h-right {
   margin-top: 100px;
   font-family: "montserrat", sans-serif;
 }
 header .h-right h1 {
-  font-size: 45px;
-  font-family: "ubuntu", sans-serif;
-  font-weight: bold;
+  font-size: 40px;
+  font-family: "montserrat", sans-serif;
 }
 header .h-right h1 span {
   color: #7DE5ED;
 }
 header .h-right p {
-  font-size: 33px;
-  font-weight: 900;
+  font-size: 28px;
 }
 
 section {
@@ -89,7 +88,6 @@ section article .about .a-left span {
   font-weight: 900;
 }
 section article .about .a-left p {
-  font-weight: 900;
   font-size: 22px;
 }
 section article .about .a-right .bg {
@@ -176,11 +174,8 @@ section article .skill .container .s-right .p3 .text {
   padding-right: 35px;
 }
 section article .project .amount-proj {
-  position: absolute;
   text-align: center;
   font-family: "ubuntu", sans-serif;
-  margin-left: -50px;
-  left: 50%;
 }
 section article .project .amount-proj h3 {
   font-size: 30px;
@@ -200,7 +195,7 @@ section article .project .wrap::-webkit-scrollbar {
 section article .project .wrap {
   position: absolute;
   margin-top: 120px;
-  max-width: 100%;
+  max-width: 98%;
   overflow-x: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -224,6 +219,7 @@ section article .project .wrap .container .card {
 section article .project .wrap .container .card .image {
   width: 100%;
   border-radius: 15px;
+  overflow: hidden;
 }
 section article .project .wrap .container .card .image img {
   width: 100%;
@@ -255,5 +251,133 @@ section article .project .wrap .container .card .text button {
   background: linear-gradient(90deg, #017cff, #004896);
 }
 section #project {
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
+}
+section #contact {
+  padding-top: 80px;
+  margin-top: 50px;
+}
+section #contact .contact {
+  display: flex;
+}
+section #contact .contact .c-left {
+  width: 100%;
+}
+section #contact .contact .c-left img {
+  width: 80%;
+}
+section #contact .contact .c-right {
+  width: 100%;
+}
+section #contact .contact .c-right form {
+  padding: 10px 20px;
+  font-family: "ubuntu", sans-serif;
+  margin-top: 50px;
+}
+section #contact .contact .c-right form .input {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 3px;
+}
+section #contact .contact .c-right form .input input {
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+section #contact .contact .c-right form .input textarea {
+  width: 410px;
+  border-radius: 20px;
+  padding: 10px;
+}
+section #contact .contact .c-right form .input textarea::-webkit-input-placeholder {
+  font-family: "roboto", sans-serif;
+}
+section #contact .contact .c-right form button {
+  padding: 10px 50px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  background: linear-gradient(90deg, #017cff, #004896);
+}
+
+@media screen and (max-width: 800px) {
+  header .h-right {
+    width: 100%;
+  }
+  header .h-right h1 {
+    font-size: 28px;
+  }
+  header .h-right p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 900px) {
+  header {
+    flex-direction: column-reverse;
+    gap: 0px;
+    padding-top: 0px;
+  }
+  header .h-right {
+    width: 80%;
+    padding-left: 30px;
+  }
+  section article {
+    padding: 0px 20px;
+  }
+  section #about {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 50px;
+  }
+  section #about .about {
+    flex-direction: column-reverse;
+  }
+  section #about .about .a-left p {
+    font-size: 25px;
+  }
+  section #skil {
+    padding-top: 100px;
+    margin-top: -100px;
+  }
+  section #skil .skill .container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  section #project {
+    padding-top: 0px;
+    margin-top: -150px;
+  }
+  section #contact {
+    margin-top: -200px;
+    width: 100%;
+    margin-right: 50px;
+    padding-right: 0px;
+  }
+  section #contact .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section #contact .contact .c-left img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+  }
+  section #contact .contact .c-right {
+    align-items: center;
+    justify-content: center;
+    margin-top: -130px;
+  }
+  section #contact .contact .c-right form {
+    position: absolute;
+    margin-top: 500px;
+    left: 50%;
+    margin-left: -250px;
+  }
+  section #contact .contact .c-right form label {
+    font-size: 25px;
+  }
 }/*# sourceMappingURL=main.css.map */
