@@ -382,18 +382,112 @@ section{
 
 @media screen and (max-width: 800px) {
   header{
+    .h-left{
 
-    .h-right{
-      width: 100%;
-
-      h1{
-        font-size: 28px;
+      .myft{
+        width: 300px;
+        margin-left: -5px;
       }
-      p{
-        font-size: 22px;
+
+      .wafe1, .wafe2, .wafe3{
+        width: 100%;
+      }
+
+      .wafe2{
+        margin-top: 77px;
       }
     }
   }
+
+  main{
+
+    section{
+      article{
+        width: 100%;
+        padding: 0px;
+      }
+
+      #about{
+  
+        .about{
+  
+          .a-right{
+            img{
+              width: 100%;
+            }
+            .vektor{
+              margin-left: -25px;
+              margin-top: -360px;
+            }
+            .bg{
+              margin-left: -2px;
+            }
+          }
+  
+          .a-left{
+  
+            p{
+              font-size: 22px;
+            }
+          }
+        }
+      }
+
+      #skil{
+        margin-top: 0px;
+      }
+
+      #project{
+        margin-top: 0px;
+
+        .amount-proj{
+          margin-top: 40px;
+          margin-bottom: -70px;
+        }
+      }
+
+      #contact{
+        margin-top: 20px;
+
+        .contact{
+
+          .c-left{
+            padding: 0px;
+            margin-right: -10px;
+            padding: 0px 0px;
+
+            .image{
+              width: 80%;
+              position: relative;
+              display: flex;
+              align-items: center;
+            }
+          }
+
+          .c-right{
+            justify-content:flex-start;
+            align-items: stretch;
+            margin-top: -550px;
+
+            form{
+              position: relative;
+              left: 0%;
+              margin-left: 0px;
+
+              .input{
+
+                input, textarea{
+                  width: 300px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -484,20 +578,6 @@ section{
       }
     }
   }
-
-  // article{
-  //   padding: 0px 20px;
-  //   .about{
-  //     flex-direction: column-reverse;
-
-  //     .a-left{
-  //       P{
-  //         font-size: 1px;
-  //       }
-  //     }
-  //   }
-  // }
-
 }
 
 

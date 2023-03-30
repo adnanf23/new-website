@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/progres.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
@@ -21,6 +22,11 @@
       <h1><strong>Adnan Fauzan</strong></h1>
     </div>
     <div class="navigation">
+      <input type="checkbox" id="check">
+      <label for="check">
+        <i class="fas fa-align-right" id="menu"></i>
+        <i class="fas fa-x" id="close"></i>
+      </label>
       <ul>
         <a href="#about"><li>About</li></a>
         <a href="#skil"><li>Skil</li></a>
@@ -235,7 +241,7 @@
         <hr width="120px">
         <div class="contact">
           <div class="c-left">
-            <img src="assets/13184991_5138232-01.png" alt="">
+            <img class="image" src="assets/13184991_5138232-01.png" alt="">
           </div>
           <div class="c-right">
             <form action="">
@@ -247,7 +253,7 @@
                 <label>Message</label>
                 <textarea cols="20" rows="10" placeholder="Your Message"></textarea>
               </div>
-              <button>Send ></button>
+              <button type="submit">Send ></button>
             </form>
           </div>
         </div>

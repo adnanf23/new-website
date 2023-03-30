@@ -303,14 +303,69 @@ section #contact .contact .c-right form button {
 }
 
 @media screen and (max-width: 800px) {
-  header .h-right {
+  header .h-left .myft {
+    width: 300px;
+    margin-left: -5px;
+  }
+  header .h-left .wafe1, header .h-left .wafe2, header .h-left .wafe3 {
     width: 100%;
   }
-  header .h-right h1 {
-    font-size: 28px;
+  header .h-left .wafe2 {
+    margin-top: 77px;
   }
-  header .h-right p {
+  main section article {
+    width: 100%;
+    padding: 0px;
+  }
+  main section #about .about .a-right img {
+    width: 100%;
+  }
+  main section #about .about .a-right .vektor {
+    margin-left: -25px;
+    margin-top: -360px;
+  }
+  main section #about .about .a-right .bg {
+    margin-left: -2px;
+  }
+  main section #about .about .a-left p {
     font-size: 22px;
+  }
+  main section #skil {
+    margin-top: 0px;
+  }
+  main section #project {
+    margin-top: 0px;
+  }
+  main section #project .amount-proj {
+    margin-top: 40px;
+    margin-bottom: -70px;
+  }
+  main section #contact {
+    margin-top: 20px;
+  }
+  main section #contact .contact .c-left {
+    padding: 0px;
+    margin-right: -10px;
+    padding: 0px 0px;
+  }
+  main section #contact .contact .c-left .image {
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  main section #contact .contact .c-right {
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-top: -550px;
+  }
+  main section #contact .contact .c-right form {
+    position: relative;
+    left: 0%;
+    margin-left: 0px;
+  }
+  main section #contact .contact .c-right form .input input, main section #contact .contact .c-right form .input textarea {
+    width: 300px;
   }
 }
 @media screen and (max-width: 900px) {

@@ -26,4 +26,59 @@ nav .navigation ul li {
 nav .navigation ul a {
   text-decoration: none;
   color: white;
+}
+nav .navigation label #menu, nav .navigation label #close {
+  color: white;
+  font-size: 45px;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+nav .navigation #check {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    padding: 20px;
+  }
+  nav .navigation label #menu {
+    display: block;
+    margin-top: 20px;
+  }
+  nav .navigation label #close {
+    position: absolute;
+    right: 20px;
+    top: 45px;
+  }
+  nav .navigation ul {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    border-radius: 30px;
+    height: 40vh;
+    top: 110px;
+    right: -500px;
+    background-color: #6B728E;
+    transition: 1s;
+    z-index: 11;
+  }
+  nav .navigation ul li {
+    text-align: left;
+    display: block;
+    line-height: 80px;
+    background-color: #6B728E;
+  }
+  nav .navigation ul li:hover {
+    color: aqua;
+  }
+  nav .navigation #check:checked ~ ul {
+    right: -300px;
+  }
+  nav .navigation #check:checked ~ label #close {
+    display: block;
+  }
+  nav .navigation #check:checked ~ label #menu {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.css.map */

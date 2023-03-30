@@ -31,5 +31,74 @@ nav{
         color: white;
       }
     }
+
+    label{
+
+      #menu, #close{
+        color: white;
+        font-size: 45px;
+        float: right;
+        cursor: pointer;
+        display: none;
+      }
+    }
+
+    #check{
+      display: none;
+    }
   }
+}
+
+@media screen and (max-width: 720px) {
+ nav{
+  padding: 20px;
+
+  .navigation{
+    label{
+      #menu{
+        display: block;
+        margin-top: 20px;
+      }
+      #close{
+        position: absolute;
+        right: 20px;
+        top: 45px;
+      }
+    }
+
+    ul{
+      display: inline-block;
+      position: fixed;
+      width: 100%;
+      border-radius: 30px;
+      height: 40vh;
+      top: 110px;
+      right: -500px;
+      background-color: #6B728E;
+      transition: 1s;
+      z-index: 11;
+
+      li{
+        text-align: left;
+        display: block;
+        line-height: 80px;
+        background-color: #6B728E;
+      }
+
+      li:hover{
+        color: aqua;
+      }
+    }
+
+    #check:checked ~ ul{
+      right: -300px;
+    }
+    #check:checked ~ label #close{
+      display: block;
+    }
+    #check:checked ~ label #menu{
+        display: none;
+    }
+  }
+ } 
 }
