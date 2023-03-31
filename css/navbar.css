@@ -66,8 +66,7 @@ nav .navigation #check {
   nav .navigation ul li {
     text-align: left;
     display: block;
-    line-height: 80px;
-    background-color: #6B728E;
+    line-height: 65px;
   }
   nav .navigation ul li:hover {
     color: aqua;

@@ -58,6 +58,7 @@ header .h-right h1 span {
 }
 header .h-right p {
   font-size: 28px;
+  font-family: "montserrat", sans-serif;
 }
 
 section {
@@ -76,7 +77,7 @@ section article h1 {
   font-size: 45px;
 }
 section article .about {
-  font-family: "montserrat", sans-serif;
+  font-family: "roboto", sans-serif;
   display: flex;
   padding: 70px 0px;
 }
@@ -84,7 +85,7 @@ section article .about .a-left {
   margin: 20px 5px;
 }
 section article .about .a-left span {
-  font-family: "ubuntu", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 900;
 }
 section article .about .a-left p {
@@ -313,6 +314,14 @@ section #contact .contact .c-right form button {
   header .h-left .wafe2 {
     margin-top: 77px;
   }
+  header .h-right h1 {
+    font-size: 32px;
+  }
+  header .h-right p {
+    font-size: 24px;
+    font-weight: 100;
+    font-style: normal;
+  }
   main section article {
     width: 100%;
     padding: 0px;
@@ -321,38 +330,47 @@ section #contact .contact .c-right form button {
     width: 100%;
   }
   main section #about .about .a-right .vektor {
-    margin-left: -25px;
-    margin-top: -360px;
+    position: absolute;
+    margin-top: -58px;
+    margin-left: -26px;
+    left: 0px;
   }
   main section #about .about .a-right .bg {
     margin-left: -2px;
   }
+  main section #about .about .a-left {
+    margin-top: 60px;
+  }
   main section #about .about .a-left p {
     font-size: 22px;
+    font-weight: 100;
   }
   main section #skil {
-    margin-top: 0px;
+    margin-top: 150px;
+    padding-top: 50px;
   }
   main section #project {
-    margin-top: 0px;
+    margin-top: 160px;
   }
   main section #project .amount-proj {
     margin-top: 40px;
     margin-bottom: -70px;
   }
   main section #contact {
-    margin-top: 20px;
+    margin-top: 150px;
   }
   main section #contact .contact .c-left {
+    display: none;
     padding: 0px;
-    margin-right: -10px;
+    margin-right: -100px;
     padding: 0px 0px;
   }
   main section #contact .contact .c-left .image {
     width: 80%;
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
+    right: -100px;
   }
   main section #contact .contact .c-right {
     justify-content: flex-start;
@@ -362,6 +380,7 @@ section #contact .contact .c-right form button {
   main section #contact .contact .c-right form {
     position: relative;
     left: 0%;
+    margin-bottom: -500px;
     margin-left: 0px;
   }
   main section #contact .contact .c-right form .input input, main section #contact .contact .c-right form .input textarea {
