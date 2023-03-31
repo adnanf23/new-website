@@ -72,7 +72,7 @@ nav .navigation #check {
     color: aqua;
   }
   nav .navigation #check:checked ~ ul {
-    right: -400px;
+    right: -250px;
   }
   nav .navigation #check:checked ~ label #close {
     display: block;

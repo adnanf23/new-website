@@ -312,7 +312,10 @@ section #contact .contact .c-right form button {
     width: 100%;
   }
   header .h-left .wafe2 {
-    margin-top: 77px;
+    margin-top: 70px;
+  }
+  header .h-left .wafe3 {
+    margin-top: 48px;
   }
   header .h-right h1 {
     font-size: 32px;
@@ -384,7 +387,7 @@ section #contact .contact .c-right form button {
     margin-left: 0px;
   }
   main section #contact .contact .c-right form .input input, main section #contact .contact .c-right form .input textarea {
-    width: 300px;
+    width: 100%;
   }
 }
 @media screen and (max-width: 900px) {
