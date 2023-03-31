@@ -77,7 +77,7 @@ section article h1 {
   font-size: 45px;
 }
 section article .about {
-  font-family: "roboto", sans-serif;
+  font-family: "montserrat", sans-serif;
   display: flex;
   padding: 70px 0px;
 }
@@ -103,7 +103,7 @@ section article .skill {
   padding: 30px 0px 0px 0px;
 }
 section article .skill p {
-  font-family: "roboto", sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 22px;
   padding-bottom: 35px;
 }
