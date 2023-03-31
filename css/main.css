@@ -303,6 +303,16 @@ section #contact .contact .c-right form button {
   background: linear-gradient(90deg, #017cff, #004896);
 }
 
+footer {
+  text-align: center;
+}
+footer h3 {
+  font-family: "ubuntu", sans-serif;
+}
+footer p {
+  font-family: "montserrat", sans-serif;
+}
+
 @media screen and (max-width: 800px) {
   header .h-left .myft {
     width: 300px;
@@ -345,7 +355,7 @@ section #contact .contact .c-right form button {
     margin-top: 60px;
   }
   main section #about .about .a-left p {
-    font-size: 22px;
+    font-size: 19px;
     font-weight: 100;
   }
   main section #skil {
