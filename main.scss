@@ -391,6 +391,18 @@ footer{
   }
 }
 
+@media screen and (max-width: 700px) {
+  main{
+
+    section{
+
+      #project{
+        margin-top: 200px;
+      }
+    }
+  }
+}
+
 
 @media screen and (max-width: 800px) {
   header{
@@ -476,6 +488,38 @@ footer{
         .amount-proj{
           margin-top: 40px;
           margin-bottom: -70px;
+        }
+
+        .wrap{
+
+          .container{
+
+            .card{
+              max-width: 200px;
+              min-width: 190px;
+              height: 19.2rem;
+
+              .text{
+                h1{
+                  font-size: 19px;
+                  padding: 3px 0px 0px 0px;
+                }
+    
+                h5{
+                  font-size: 15px;
+                  padding-bottom: 5px;
+                }
+                p{
+                  font-size: 11px;
+                  font-family: $ubuntu;
+    
+                  span{
+                    font-weight: 1000;
+                  }
+                }
+              }
+            }
+          }
         }
       }
 

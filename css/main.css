@@ -313,6 +313,11 @@ footer p {
   font-family: "montserrat", sans-serif;
 }
 
+@media screen and (max-width: 700px) {
+  main section #project {
+    margin-top: 200px;
+  }
+}
 @media screen and (max-width: 800px) {
   header .h-left .myft {
     width: 300px;
@@ -368,6 +373,26 @@ footer p {
   main section #project .amount-proj {
     margin-top: 40px;
     margin-bottom: -70px;
+  }
+  main section #project .wrap .container .card {
+    max-width: 200px;
+    min-width: 190px;
+    height: 19.2rem;
+  }
+  main section #project .wrap .container .card .text h1 {
+    font-size: 19px;
+    padding: 3px 0px 0px 0px;
+  }
+  main section #project .wrap .container .card .text h5 {
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  main section #project .wrap .container .card .text p {
+    font-size: 11px;
+    font-family: "ubuntu", sans-serif;
+  }
+  main section #project .wrap .container .card .text p span {
+    font-weight: 1000;
   }
   main section #contact {
     margin-top: 150px;
